@@ -1,0 +1,21 @@
+18:10:56 **** Incremental Build of configuration Debug for project ledstripe_controller_2016 ****
+make -r all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0 -D__USE_LPCOPEN -D__LPC11UXX__ -D__REDLIB__ -DCHIP_LPC11UXX -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\ledstripe_controller_2016\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/chip.h:232:0,
+                 from D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc/board.h:35,
+                 from ../src/main.c:32:
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character
+ #error "LPC1125 support for the PMU driver is not ready
+        ^
+In file included from D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc/board.h:35:0,
+                 from ../src/main.c:32:
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/chip.h:273:23: fatal error: usbd_11xx.h: No such file or directory
+ #include "usbd_11xx.h"
+                       ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+
+18:10:56 Build Finished (took 260ms)
+

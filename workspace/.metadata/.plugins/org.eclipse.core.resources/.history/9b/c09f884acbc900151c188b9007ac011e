@@ -1,0 +1,517 @@
+/*
+ * @brief Blinky example using timers and sysTick
+ *
+ * @note
+ * Copyright(C) NXP Semiconductors, 2012
+ * All rights reserved.
+ *
+ * @par
+ * Software that is described herein is for illustrative purposes only
+ * which provides customers with programming information regarding the
+ * LPC products.  This software is supplied "AS IS" without any warranties of
+ * any kind, and NXP Semiconductors and its licensor disclaim any and
+ * all warranties, express or implied, including all implied warranties of
+ * merchantability, fitness for a particular purpose and non-infringement of
+ * intellectual property rights.  NXP Semiconductors assumes no responsibility
+ * or liability for the use of the software, conveys no  nur zu drittlicense or rights under any
+ * patent, copyright, mask work right, or any other intellectual property rights in
+ * or to any products. NXP Semiconductors reserves the right to make changes
+ * in the software without notification. NXP Semiconductors also makes no
+ * representation or warranty that such application will be suitable for the
+ * specified use without further testing or modification.
+ *
+ * @par
+ * Permission to use, copy, modify, and distribute this software and its
+ * documentation is hereby granted, under NXP Semiconductors' and its
+ * licensor's relevant copyrights in the software, without fee, provided that it
+ * is used in conjunction with NXP Semiconductors microcontrollers.  This
+ * copyright, permission, and disclaimer notice must appear in all copies of
+ * this code.
+ */
+
+#include "board.h"
+#include <stdio.h>
+#include "led_remote_codes.h"
+
+/*****************************************************************************
+ * Private types/enumerations/variables
+ ****************************************************************************/
+
+#define TICKRATE_HZ1 (10) /* 10 ticks per second */
+#define TICKRATE_HZ2 (11) /* 11 ticks per second */
+#define PWM_FREQ_MAX	5000 /* set PWM max frequency to 5 kHz*/
+#define PWM_INIT_FREQ	2500 /* set PWM initial frequency to 2,5 kHz, 50/50 duty cycle*/
+
+typedef struct {
+	uint8_t fade3 : 1;
+	uint8_t fade7 : 1;
+	uint8_t speed : 6;
+} fader_t;
+
+volatile enum special_t {NONE, FADE3, FADE7, FLASH, JUMP3, JUMP7} special;
+
+/*****************************************************************************
+ * Public types/enumerations/variables
+ ****************************************************************************/
+uint32_t timerFreq;
+
+volatile uint32_t currCMD = 0;
+/* held the current color values*/
+volatile uint16_t red = 0, green = 0, blue = 0;
+volatile fader_t fader;
+volatile uint32_t blink_counter = 0;
+
+static const uint32_t pwm_lut[] = {9598,9598,9598,9598,9598,9598,9597,9597,9597,9597,9596,9596,9595,9595,9595,9594,9593,9593,9592,9591,9591,9590,9589,9588,9587,9585,9584,9583,9581,9579,9577,9575,9573,9570,9568,9565,9561,9558,9554,9550,9545,9540,9534,9528,9521,9514,9506,9497,9488,9477,9466,9453,9440,9425,9409,9391,9371,9350,9327,9301,9273,9243,9210,9174,9134,9091,9043,8991,8935,8873,8805,8731,8650,8562,8465,8360,8244,8118,7980,7829,7665,7485,7288,7073,6837,6580,6299,5992,5657,5290,4889,4450,3971,3447,2875,2249,1565,817,0};
+
+uint32_t pwm_cnt = 0, pwm_dir = 0;
+/*****************************************************************************
+ * Private functions
+ ****************************************************************************/
+void updateChannel(volatile uint8_t r, uint8_t g, uint8_t b);
+/*****************************************************************************
+ * Public functions
+ ****************************************************************************/
+
+void handleFade3(void){
+	static uint8_t r = 0 , g = 0, b = 0;
+	static uint8_t run = 0; // define the current run
+	/*
+	 * Runs:
+	 * 		Run 0 --> increase red
+	 * 		RUN 1 --> decrease red
+	 * 		RUN 2 --> increase green
+	 * 		RUN 3 --> decrease green
+	 * 		RUN 4 --> increase blue
+	 * 		RUN 5 --> decrease blue
+	 * 		start again with RUN 0
+	 */
+	switch (run) {
+	case 0:
+		if(r < SINGLE_CHANNEL_MAX)
+			r++; else run = 1;
+		break;
+	case 1:
+		if(r > 0)
+			r-- ; else run = 2;
+		break;
+	case 2:
+		if(g < SINGLE_CHANNEL_MAX)
+			g++; else run = 3;
+		break;
+	case 3:
+		if(g > 0)
+		g-- ; else run = 4;
+		break;
+	case 4:
+		if(b < SINGLE_CHANNEL_MAX)
+		b++; else  run = 5;
+		break;
+	case 5:
+		if(b > 0)
+		b--; else  run = 0;
+		break;
+	default: break;
+	}
+
+	updateChannel(r,g,b);
+}
+
+void handleFade7(void){
+	static uint8_t r = 0 , g = 0, b = 0;
+	static uint8_t run = 0; // define the current run
+	/*
+	 * Runs:
+	 * 		Run 0 --> increase red
+	 * 		RUN 1 --> decrease red
+	 * 		RUN 2 --> increase green
+	 * 		RUN 3 --> decrease green
+	 * 		RUN 4 --> increase blue
+	 * 		RUN 5 --> decrease blue
+	 * 		start again with RUN 0
+	 */
+	switch (run) {
+	case 0:
+		if(r < SINGLE_CHANNEL_MAX){
+			r++;
+		} else {
+			run = 1;	break;
+		}
+		break;
+	case 1:
+		if(r > 0)
+			r--; else  run = 2;
+		break;
+	case 2:
+		if(g < SINGLE_CHANNEL_MAX)
+		g++; else run = 3;
+		break;
+	case 3:
+		if(g > 0)
+			g--; else run = 4;
+		break;
+	case 4:
+		if(b < SINGLE_CHANNEL_MAX)
+			b++; else run = 5;
+		break;
+	case 5:
+		if( b > 0 )
+		b--; else run = 0;
+		break;
+	default: break;
+	}
+
+	updateChannel(r,g,b);
+}
+
+
+/**
+ * @brief	Handle interrupt from SysTick timer
+ * @return	Nothing
+ */
+void SysTick_Handler(void)
+{
+	static int itrcnt = 0;
+
+	/* handle fade speed and blink counter */
+	// JUMP3, JUMP7, FLASH, FADE3, FADE7
+	switch(special) {
+	case FADE3:
+		handleFade3();
+	case FADE7:
+			handleFade3();
+	default:
+		break; // nothing special
+	}
+
+/*
+	if(++itrcnt == 5) {
+		updateChannel(pwm_cnt,pwm_cnt,pwm_cnt);
+
+		(pwm_dir==0) ? pwm_cnt++ : pwm_cnt--;
+
+		if( pwm_cnt == 99){
+			pwm_dir = 1;
+		}
+		if(pwm_cnt == 1){
+			pwm_dir = 0;
+		}
+		itrcnt = 0;
+	}*/
+}
+
+/**
+ * @brief Update the PWM duty cycle of all channels using a logarithmic scale
+ *
+ * @param [in] value - a Value between 0 and 98 where 0 is off and 98 is max brightness
+ */
+void updateChannel(volatile uint8_t r, uint8_t g, uint8_t b){
+	red = r;
+	green = g;
+	blue = b;
+	Chip_TIMER_SetMatch(LPC_TIMER32_0, 0, ((timerFreq/PWM_FREQ_MAX) - pwm_lut[b]));
+	Chip_TIMER_SetMatch(LPC_TIMER32_0, 1, ((timerFreq/PWM_FREQ_MAX) - pwm_lut[g]));
+	Chip_TIMER_SetMatch(LPC_TIMER16_1, 0, ((timerFreq/PWM_FREQ_MAX) - pwm_lut[r]));
+}
+
+
+volatile counterArr[1024] = {0};
+volatile uint16_t counterPtr = 0;
+
+
+void handleCommand(uint32_t currCMD){
+	/**
+	 * At first we check if the address and command field match with their inverted values
+	 */
+	uint8_t address = ((currCMD & 0xff000000) >> 24);
+	uint8_t naddress = ((currCMD & 0xff0000) >> 16);
+	uint8_t cmd = ((currCMD & 0xff00) >> 8);
+	uint8_t ncmd = ((currCMD & 0xff) );
+
+	if(address == (~(naddress) & 0xff)){
+		if(cmd == (~(ncmd) & 0xff)){
+			switch(cmd){
+			case BTN_POWER:
+//				system_power_down();
+				break;
+			case BTN_WEISS:
+				updateChannel(SINGLE_CHANNEL_MAX,SINGLE_CHANNEL_MAX,SINGLE_CHANNEL_MAX);
+				break;
+			case BTN_ROT:
+				updateChannel(SINGLE_CHANNEL_MAX,0,0);
+				break;
+			case BTN_GRUEN:
+				updateChannel(0,SINGLE_CHANNEL_MAX,0);
+				break;
+			case BTN_BLAU:
+				updateChannel(0,0,SINGLE_CHANNEL_MAX);
+				break;
+			case BTN_RPLUS:
+				if(red + SINGLE_CHANNEL_INC <= SINGLE_CHANNEL_MAX){
+					updateChannel(red + SINGLE_CHANNEL_INC, green, blue);
+				} else {
+					updateChannel(SINGLE_CHANNEL_MAX, green, blue);
+				}
+				break;
+			case BTN_RMINUS:
+				if(red - SINGLE_CHANNEL_INC >= 0) {
+					updateChannel(red - SINGLE_CHANNEL_INC, green, blue);
+				} else {
+					updateChannel(0, green, blue);
+				}
+				break;
+			case BTN_BPLUS:
+				if(blue + SINGLE_CHANNEL_INC <= SINGLE_CHANNEL_MAX){
+					updateChannel(red, green, blue + SINGLE_CHANNEL_INC);
+				} else {
+					updateChannel(red, green, SINGLE_CHANNEL_MAX);
+				}
+				break;
+			case BTN_BMINUS:
+				if(blue - SINGLE_CHANNEL_INC >= 0) {
+					updateChannel(red, green, blue - SINGLE_CHANNEL_INC);
+				} else {
+					updateChannel(red, green, 0);
+				}
+				break;
+			case BTN_GPLUS:
+				if(green + SINGLE_CHANNEL_INC <= SINGLE_CHANNEL_MAX){
+					updateChannel(red, green+ SINGLE_CHANNEL_INC, blue);
+				} else {
+					updateChannel(red, SINGLE_CHANNEL_MAX, blue);
+				}
+				break;
+			case BTN_GMINUS:
+				if(green - SINGLE_CHANNEL_INC >= 0) {
+					updateChannel(red, green  - SINGLE_CHANNEL_INC, blue);
+				} else {
+					updateChannel(red, 0, blue);
+				}
+				break;
+			case BTN_R1: // TODO passende farbtöne finden
+				updateChannel(SPECIAL_BUTTON_RED_1);
+				break;
+			case BTN_R2:
+				updateChannel(SPECIAL_BUTTON_RED_2);
+				break;
+			case BTN_R3:
+				updateChannel(SPECIAL_BUTTON_RED_3);
+				break;
+			case BTN_R4:
+				updateChannel(SPECIAL_BUTTON_RED_4);
+				break;
+			case BTN_G1:
+				updateChannel(SPECIAL_BUTTON_GREEN_1);
+				break;
+			case BTN_G2:
+				updateChannel(SPECIAL_BUTTON_GREEN_2);
+				break;
+			case BTN_G3:
+				updateChannel(SPECIAL_BUTTON_GREEN_3);
+				break;
+			case BTN_G4:
+				updateChannel(SPECIAL_BUTTON_GREEN_4);
+				break;
+			case BTN_B1:
+				updateChannel(SPECIAL_BUTTON_BLUE_1);
+				break;
+			case BTN_B2:
+				updateChannel(SPECIAL_BUTTON_BLUE_2);
+				break;
+			case BTN_B3:
+				updateChannel(SPECIAL_BUTTON_BLUE_3);
+				break;
+			case BTN_B4:
+				updateChannel(SPECIAL_BUTTON_BLUE_4);
+				break;
+			case BTN_W1:
+				updateChannel(SPECIAL_BUTTON_WHITE_1);
+				break;
+			case BTN_W2:
+				updateChannel(SPECIAL_BUTTON_WHITE_2);
+				break;
+			case BTN_W3:
+				updateChannel(SPECIAL_BUTTON_WHITE_3);
+				break;
+			case BTN_W4:
+				updateChannel(SPECIAL_BUTTON_WHITE_4);
+				break;
+			default:
+				break;
+			}
+
+		}
+	}
+}
+
+/**
+ * @brief	Handle interrupt from TIMER32_1
+ * @return	Nothing
+ */
+void TIMER32_1_IRQHandler(void){
+	uint32_t counterVal = 0;
+	static uint8_t idx = 0;
+	static uint8_t toggle = 0; // 0 - low, 1 - high
+
+
+
+//	if(Chip_GPIO_GetPinState(LPC_GPIO, 1, 0)){
+		// true = high
+		counterVal = Chip_TIMER_ReadCapture(LPC_TIMER32_1, 0);
+		Chip_TIMER_Disable(LPC_TIMER32_1); // stop timer counting
+
+		counterArr[counterPtr++] = counterVal;
+		if(counterPtr > 1023)
+			counterPtr = 0;
+
+		if(toggle == 1){
+			// low
+			idx++;
+			if(counterVal >= 850) {
+				// start block
+				currCMD = 0;
+			}
+		} else {
+			// high
+			if(counterVal >= 350 && counterVal < 850) {
+				// space after start
+			} else if(counterVal >= 50 && counterVal < 100){
+				// 0 bit
+				currCMD = (currCMD << 1) | 0;
+			} else if(counterVal >= 100 && counterVal < 200){
+				// 1 bit
+				currCMD = (currCMD << 1) | 1;
+			}
+		}
+		if(idx == 34){
+			// command completed
+			idx = 0;
+			toggle = 0;
+			handleCommand(currCMD);
+			Chip_TIMER_ClearCapture(LPC_TIMER32_1,0);
+			Chip_TIMER_Reset(LPC_TIMER32_1);
+			Chip_TIMER_Disable(LPC_TIMER32_1); // stop timer counting
+
+			counterPtr = 0;
+			memset(counterArr,0x0,1024);
+
+			return;
+		}
+		// TODO handle repeat code
+
+	toggle ^= 0x1;
+	NVIC_ClearPendingIRQ(TIMER_32_1_IRQn);
+	Chip_TIMER_ClearCapture(LPC_TIMER32_1,0);
+	Chip_TIMER_Reset(LPC_TIMER32_1);
+	Chip_TIMER_Enable(LPC_TIMER32_1);
+
+}
+
+/**
+ * @brief	Handle interrupt from GPIO pin or GPIO pin mapped to PININT
+ * @return	Nothing
+ */
+//void PIOINT1_IRQHandler(void)
+//{
+//	static uint32_t irqCnt = 0;
+//	irqCnt++;
+//	/* Clear interrupt */
+//	Chip_GPIO_ClearInts(LPC_GPIO, 1, (1 << 0));
+//	NVIC_ClearPendingIRQ(EINT1_IRQn);
+//	/* Disable Interrupt on this pin and enable Counter*/
+//	Chip_GPIO_DisableInt(LPC_GPIO, 1, (1 << 0));
+//
+////	Chip_TIMER_Enable(LPC_TIMER32_1);
+//}
+
+/**
+ * @brief	main routine for blinky example
+ * @return	Function should not exit.
+ */
+int main(void)
+{
+	SystemCoreClockUpdate();
+	Board_Init();
+
+	Chip_TIMER_DeInit(LPC_TIMER32_0);
+	Chip_TIMER_DeInit(LPC_TIMER32_1);
+	Chip_TIMER_DeInit(LPC_TIMER16_1);
+	Chip_TIMER_Disable(LPC_TIMER32_0);
+	Chip_TIMER_Disable(LPC_TIMER32_1);
+	Chip_TIMER_Disable(LPC_TIMER16_1);
+	Chip_TIMER_Reset(LPC_TIMER32_0);
+	Chip_TIMER_Reset(LPC_TIMER32_1);
+	Chip_TIMER_Reset(LPC_TIMER16_1);
+
+
+
+	timerFreq = Chip_Clock_GetSystemClockRate();
+
+	/* Enable and setup SysTick Timer at a periodic rate */
+	SysTick_Config(SystemCoreClock/1000);
+
+	Chip_GPIO_SetDir(LPC_GPIO, 1, 0x2C0, 1); // set Pin 1.[6,7,9] to output
+	/* configure the GPIO alternate function to Timer PWM output */
+	Chip_IOCON_PinMuxSet(LPC_IOCON,IOCON_PIO1_6, IOCON_FUNC2 | IOCON_MODE_PULLUP); // red
+	Chip_IOCON_PinMuxSet(LPC_IOCON,IOCON_PIO1_7, IOCON_FUNC2 | IOCON_MODE_PULLUP); // green
+	Chip_IOCON_PinMuxSet(LPC_IOCON,IOCON_PIO1_9, IOCON_FUNC1 | IOCON_MODE_PULLUP); // blue
+
+	/* configure the GPIO alternate function to IRDA input */
+	Chip_GPIO_SetDir(LPC_GPIO, 1, 0x0, 0); // set Pin 1.0 to input
+	Chip_IOCON_PinMuxSet(LPC_IOCON,IOCON_PIO1_0, IOCON_FUNC3 | IOCON_MODE_PULLUP | IOCON_DIGMODE_EN); // IR input
+
+//	Chip_GPIO_SetupPinInt(LPC_GPIO, 1, 0, GPIO_INT_FALLING_EDGE);
+//	Chip_GPIO_SetupPinInt(LPC_GPIO, 1, 0, GPIO_INT_RISING_EDGE);
+
+	/* Init Timers */
+	Chip_TIMER_Init(LPC_TIMER32_0);
+	Chip_TIMER_Init(LPC_TIMER16_1);
+	/* Init TIMER32_1 for IR command detection */
+	Chip_TIMER_Init(LPC_TIMER32_1);
+
+	Chip_TIMER_Reset(LPC_TIMER32_0);
+	Chip_TIMER_Reset(LPC_TIMER16_1);
+	Chip_TIMER_Reset(LPC_TIMER32_1);
+
+	Chip_TIMER_SetMatch(LPC_TIMER32_0, 3, timerFreq/PWM_FREQ_MAX); // set max match to full scale
+	Chip_TIMER_SetMatch(LPC_TIMER32_0, 1, timerFreq/PWM_INIT_FREQ);
+	Chip_TIMER_SetMatch(LPC_TIMER32_0, 0, timerFreq/PWM_INIT_FREQ);
+
+	/* Configure CAPTURE of TIMER32_1 for IR capture*/
+	Chip_TIMER_TIMER_SetCountClockSrc(LPC_TIMER32_1, TIMER_CAPSRC_RISING_PCLK, 0);
+	Chip_TIMER_CaptureRisingEdgeEnable(LPC_TIMER32_1, 0); // register 0
+	Chip_TIMER_CaptureFallingEdgeEnable(LPC_TIMER32_1, 0); // register 0
+	Chip_TIMER_CaptureEnableInt(LPC_TIMER32_1,0);
+//	Chip_TIMER_CaptureEnableInt(LPC_TIMER32_1,1);
+	Chip_TIMER_PrescaleSet(LPC_TIMER32_1, (SystemCoreClock/100000 - 1));
+
+	Chip_TIMER_SetMatch(LPC_TIMER16_1,3, timerFreq/PWM_FREQ_MAX); // set max match to full scale
+	Chip_TIMER_SetMatch(LPC_TIMER16_1, 0, timerFreq/PWM_INIT_FREQ);
+	LPC_TIMER16_1->PWMC |= (1<<0); // enable PWM out on CT16B1_MAT0
+	LPC_TIMER32_0->PWMC |= (3<<0); // enable PWM out on CT32B0_MAT0/1
+
+	Chip_TIMER_ResetOnMatchEnable(LPC_TIMER32_0, 3);
+	Chip_TIMER_ResetOnMatchEnable(LPC_TIMER16_1, 3);
+	/* Enable all clocks, even those turned off at wake power up */
+	Chip_SYSCTL_SetWakeup(~(SYSCTL_SLPWAKE_IRCOUT_PD | SYSCTL_SLPWAKE_IRC_PD |
+		SYSCTL_SLPWAKE_FLASH_PD | SYSCTL_SLPWAKE_SYSOSC_PD | SYSCTL_SLPWAKE_SYSOSC_PD | SYSCTL_SLPWAKE_SYSPLL_PD));
+
+	Chip_TIMER_Enable(LPC_TIMER16_1);
+	Chip_TIMER_Enable(LPC_TIMER32_0);
+
+//	NVIC_ClearPendingIRQ(EINT1_IRQn);
+	NVIC_ClearPendingIRQ(TIMER_32_1_IRQn);
+
+//	NVIC_EnableIRQ(EINT1_IRQn);
+	NVIC_EnableIRQ(TIMER_32_1_IRQn);
+
+//	Chip_GPIO_EnableInt(LPC_GPIO, 1, (1 << 0));
+
+
+	/* LEDs toggle in interrupt handlers */
+	while (1) {
+		__WFI();
+	}
+
+
+	return 0;
+}

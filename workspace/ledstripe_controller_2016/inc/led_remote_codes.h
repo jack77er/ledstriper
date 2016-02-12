@@ -1,0 +1,76 @@
+/*
+ * led_remote_codes.h
+ *
+ *  Created on: 24.07.2015
+ *      Author: Maxa
+ */
+
+#ifndef INC_LED_REMOTE_CODES_H_
+#define INC_LED_REMOTE_CODES_H_
+
+#define	BTN_POWER	0x02
+#define	BTN_RMINUS	0x08
+#define	BTN_R2		0x0A
+#define	BTN_DIY4	0x10
+#define	BTN_W1		0x12
+#define	BTN_R4		0x18
+#define	BTN_ROT		0x1A
+#define	BTN_JUMP3	0x20
+#define	BTN_WEISS 	0x22
+#define	BTN_RPLUS 	0x28
+#define	BTN_R1		0x2A
+#define	BTN_DIY1	0x30
+#define	BTN_W2		0x32
+#define	BTN_R3		0x38
+#define	BTN_HELLER	0x3A
+#define	BTN_BMINUS	0x48
+#define	BTN_DIY6	0x50
+#define	BTN_B4		0x58
+#define	BTN_FADE3	0x60
+#define	BTN_BPLUS	0x68
+#define	BTN_DIY3	0x70
+#define	BTN_B3		0x78
+#define	BTN_PLAY	0x82
+#define	BTN_GMINUS	0x88
+#define	BTN_G2		0x8A
+#define	BTN_DIY5	0x90
+#define	BTN_B1		0x92
+#define	BTN_G4		0x98
+#define	BTN_GRUEN	0x9A
+#define	BTN_JUMP7	0xA0
+#define	BTN_BLAU	0xA2
+#define	BTN_GPLUS	0xA8
+#define	BTN_G1		0xAA
+#define	BTN_DIY2	0xB0
+#define	BTN_B2		0xB2
+#define	BTN_G3		0xB8
+#define	BTN_DUNKLER	0xBA
+#define	BTN_SLOW	0xC8
+#define	BTN_FLASH	0xD0
+#define	BTN_W4		0xD8
+#define	BTN_FADE7	0xE0
+#define	BTN_QUICK	0xE8
+#define	BTN_AUTO	0xF0
+#define	BTN_W3		0xF8
+/* following define the three values (red, green, blue) for the 16 predefined color buttons */
+#define SPECIAL_BUTTON_RED_1	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_RED_2	SINGLE_CHANNEL_MAX, 31, 31
+#define SPECIAL_BUTTON_RED_3	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_RED_4	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_GREEN_1	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_GREEN_2	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_GREEN_3	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_GREEN_4	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_BLUE_1	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_BLUE_2	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_BLUE_3	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_BLUE_4	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_WHITE_1	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_WHITE_2	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_WHITE_3	SINGLE_CHANNEL_MAX, 41, 0
+#define SPECIAL_BUTTON_WHITE_4	SINGLE_CHANNEL_MAX, 41, 0
+
+#define SINGLE_CHANNEL_INC 5
+#define SINGLE_CHANNEL_MAX 98
+
+#endif /* INC_LED_REMOTE_CODES_H_ */

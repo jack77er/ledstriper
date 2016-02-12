@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ledstripe_controller_2016/src/blinky.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;blinky.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/blinky.c" name="main.c" stamp="1454430959435" updateReferences="true"/>
+</session>

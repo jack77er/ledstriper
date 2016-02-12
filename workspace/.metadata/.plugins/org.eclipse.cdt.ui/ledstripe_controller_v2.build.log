@@ -1,0 +1,6 @@
+18:25:57 **** Incremental Build of configuration Debug for project ledstripe_controller_v2 ****
+make -r all 
+make: Nothing to be done for `all'.
+
+18:25:57 Build Finished (took 115ms)
+

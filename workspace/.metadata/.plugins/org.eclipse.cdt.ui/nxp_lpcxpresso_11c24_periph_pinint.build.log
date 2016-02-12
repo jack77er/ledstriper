@@ -1,0 +1,43 @@
+18:10:02 **** Build of configuration Debug for project nxp_lpcxpresso_11c24_periph_pinint ****
+make -r all 
+Building file: ../example/src/cr_startup_lpc11xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_periph_pinint\example\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/cr_startup_lpc11xx.d" -MT"example/src/cr_startup_lpc11xx.d" -o "example/src/cr_startup_lpc11xx.o" "../example/src/cr_startup_lpc11xx.c"
+Finished building: ../example/src/cr_startup_lpc11xx.c
+ 
+Building file: ../example/src/pinint.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_periph_pinint\example\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/pinint.d" -MT"example/src/pinint.o" -MT"example/src/pinint.d" -o "example/src/pinint.o" "../example/src/pinint.c"
+In file included from D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/chip.h:232:0,
+                 from D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc/board.h:35,
+                 from ../example/src/pinint.c:32:
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character
+ #error "LPC1125 support for the PMU driver is not ready
+        ^
+Finished building: ../example/src/pinint.c
+ 
+Building file: ../example/src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_periph_pinint\example\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/sysinit.d" -MT"example/src/sysinit.o" -MT"example/src/sysinit.d" -o "example/src/sysinit.o" "../example/src/sysinit.c"
+In file included from D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/chip.h:232:0,
+                 from D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc/board.h:35,
+                 from ../example/src/sysinit.c:32:
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character
+ #error "LPC1125 support for the PMU driver is not ready
+        ^
+Finished building: ../example/src/sysinit.c
+ 
+Building target: nxp_lpcxpresso_11c24_periph_pinint.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug" -L"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug" -Xlinker -Map="nxp_lpcxpresso_11c24_periph_pinint.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_11c24_periph_pinint_Debug.ld" -o "nxp_lpcxpresso_11c24_periph_pinint.axf"  ./example/src/cr_startup_lpc11xx.o ./example/src/pinint.o ./example/src/sysinit.o   -lnxp_lpcxpresso_11c24_board_lib -llpc_chip_11cxx_lib
+Finished building target: nxp_lpcxpresso_11c24_periph_pinint.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11c24_periph_pinint.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11c24_periph_pinint.axf" "nxp_lpcxpresso_11c24_periph_pinint.bin" ; checksum -p LPC11C24_301 -d "nxp_lpcxpresso_11c24_periph_pinint.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4676	      0	    340	   5016	   1398	nxp_lpcxpresso_11c24_periph_pinint.axf
+ 
+
+18:10:03 Build Finished (took 1s.182ms)
+

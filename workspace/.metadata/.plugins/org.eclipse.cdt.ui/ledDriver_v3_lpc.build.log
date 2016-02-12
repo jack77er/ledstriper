@@ -1,0 +1,16 @@
+22:30:44 **** Incremental Build of configuration Debug for project ledDriver_v3_lpc ****
+make -r all 
+Building target: ledDriver_v3_lpc.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug" -L"C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug" -Xlinker -Map="ledDriver_v3_lpc.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "ledDriver_v3_lpc_Debug.ld" -o "ledDriver_v3_lpc.axf"  ./src/cr_startup_lpc11xx.o ./src/crp.o ./src/ledDriver_v3_lpc.o ./src/sysinit.o   -llpc_chip_11cxx_lib -lnxp_lpcxpresso_11c24_board_lib
+C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o): In function `Board_Init':
+C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug/../src/board.c:137: undefined reference to `Chip_GPIO_Init'
+C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o): In function `SystemSetupClocking':
+C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug/../src/board_sysinit.c:78: undefined reference to `Chip_SYSCTL_PowerUp'
+C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug/../src/board_sysinit.c:88: undefined reference to `Chip_SYSCTL_PowerDown'
+C:\Users\Jacob\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug/../src/board_sysinit.c:97: undefined reference to `Chip_SYSCTL_PowerUp'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ledDriver_v3_lpc.axf] Error 1
+
+22:30:44 Build Finished (took 242ms)
+

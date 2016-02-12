@@ -1,0 +1,53 @@
+18:09:38 **** Build of configuration Debug for project ledDriver_v2 ****
+make -r all 
+Building file: ../src/aeabi_romdiv_patch.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -D__REDLIB__ -DDEBUG -D__CODE_RED -g3 -mcpu=cortex-m0 -mthumb -specs=redlib.specs -o "src/aeabi_romdiv_patch.o" "../src/aeabi_romdiv_patch.s"
+Finished building: ../src/aeabi_romdiv_patch.s
+ 
+Building file: ../src/cr_startup_lpc11uxx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0 -D__USE_LPCOPEN -D__LPC11UXX__ -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc11uxx.d" -MT"src/cr_startup_lpc11uxx.o" -MT"src/cr_startup_lpc11uxx.d" -o "src/cr_startup_lpc11uxx.o" "../src/cr_startup_lpc11uxx.c"
+Finished building: ../src/cr_startup_lpc11uxx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0 -D__USE_LPCOPEN -D__LPC11UXX__ -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/ledDriver_v2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0 -D__USE_LPCOPEN -D__LPC11UXX__ -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/ledDriver_v2.d" -MT"src/ledDriver_v2.o" -MT"src/ledDriver_v2.d" -o "src/ledDriver_v2.o" "../src/ledDriver_v2.c"
+In file included from D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/chip.h:232:0,
+                 from D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc/board.h:35,
+                 from ../src/ledDriver_v2.c:15:
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character
+ #error "LPC1125 support for the PMU driver is not ready
+        ^
+Finished building: ../src/ledDriver_v2.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0 -D__USE_LPCOPEN -D__LPC11UXX__ -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc" -I"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+In file included from D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/chip.h:232:0,
+                 from D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\inc/board.h:35,
+                 from ../src/sysinit.c:35:
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character
+ #error "LPC1125 support for the PMU driver is not ready
+        ^
+Finished building: ../src/sysinit.c
+ 
+Building target: ledDriver_v2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug" -L"D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug" -Xlinker -Map="ledDriver_v2.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "ledDriver_v2_Debug.ld" -o "ledDriver_v2.axf"  ./src/aeabi_romdiv_patch.o ./src/cr_startup_lpc11uxx.o ./src/crp.o ./src/ledDriver_v2.o ./src/sysinit.o   -lnxp_lpcxpresso_11c24_board_lib -llpc_chip_11cxx_lib
+Finished building target: ledDriver_v2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ledDriver_v2.axf"; # arm-none-eabi-objcopy -v -O binary "ledDriver_v2.axf" "ledDriver_v2.bin" ; # checksum -p LPC11U14_201 -d "ledDriver_v2.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2524	      0	      8	   2532	    9e4	ledDriver_v2.axf
+ 
+
+18:09:40 Build Finished (took 1s.551ms)
+

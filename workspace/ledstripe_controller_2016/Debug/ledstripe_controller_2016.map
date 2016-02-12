@@ -1,0 +1,1390 @@
+Archive member included because of file (symbol)
+
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+                              ./src/main.o (Board_Init)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+                              ./src/sysinit.o (Board_SystemInit)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+                              ./src/main.o (SystemCoreClock)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                              D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o) (Chip_Clock_SetSystemPLLSource)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+                              D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o) (Chip_GPIO_Init)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+                              ./src/main.o (Chip_SYSCTL_SetWakeup)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+                              ./src/main.o (Chip_TIMER_Init)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+                              D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o) (Chip_UART_Init)
+D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+                              D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o) (RingBuffer_Insert)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                              D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o) (memcpy)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                              ./src/main.o (memset)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc11uxx.o (__main)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o)
+                              ./src/main.o (__aeabi_uidiv)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+SystemCoreClock     0x4               D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+timerFreq           0x4               ./src/main.o
+fader               0x1               ./src/main.o
+special             0x1               ./src/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/aeabi_romdiv_patch.o
+ .data          0x00000000        0x0 ./src/aeabi_romdiv_patch.o
+ .bss           0x00000000        0x0 ./src/aeabi_romdiv_patch.o
+ .ARM.attributes
+                0x00000000       0x21 ./src/aeabi_romdiv_patch.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc11uxx.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc11uxx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc11uxx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc11uxx.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x83e ./src/crp.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .bss.blink_counter
+                0x00000000        0x4 ./src/main.o
+ .bss.pwm_cnt   0x00000000        0x4 ./src/main.o
+ .bss.pwm_dir   0x00000000        0x4 ./src/main.o
+ .text.handleFade7
+                0x00000000       0xfc ./src/main.o
+ .rodata.handleFade7
+                0x00000000       0x18 ./src/main.o
+ .bss.run.5929  0x00000000        0x1 ./src/main.o
+ .bss.r.5926    0x00000000        0x1 ./src/main.o
+ .bss.g.5927    0x00000000        0x1 ./src/main.o
+ .bss.b.5928    0x00000000        0x1 ./src/main.o
+ .bss.itrcnt.5941
+                0x00000000        0x4 ./src/main.o
+ .debug_macro   0x00000000      0x83e ./src/main.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x83e ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x12d ./src/sysinit.o
+ .debug_macro   0x00000000      0x5b2 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x7b ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000       0x1f ./src/sysinit.o
+ .debug_macro   0x00000000       0x3a ./src/sysinit.o
+ .debug_macro   0x00000000      0x241 ./src/sysinit.o
+ .debug_macro   0x00000000      0x117 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0xb2 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x137 ./src/sysinit.o
+ .debug_macro   0x00000000       0x4c ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x31a ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0xb8 ./src/sysinit.o
+ .debug_macro   0x00000000       0x11 ./src/sysinit.o
+ .debug_macro   0x00000000       0x7c ./src/sysinit.o
+ .debug_macro   0x00000000      0x21c ./src/sysinit.o
+ .debug_macro   0x00000000      0x113 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000       0x9a ./src/sysinit.o
+ .debug_macro   0x00000000       0x20 ./src/sysinit.o
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_IOCON_PinMuxSet
+                0x00000000       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_UART_TXEnable
+                0x00000000       0x14 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_UART_SetupFIFOS
+                0x00000000       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_UART_ConfigData
+                0x00000000       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_GPIO_SetPinState
+                0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_GPIO_GetPinState
+                0x00000000       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Chip_GPIO_SetPinToggle
+                0x00000000       0x5c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.__sys_write
+                0x00000000       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.__sys_readc
+                0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .rodata.ExtRateIn
+                0x00000000        0x4 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_UARTPutChar
+                0x00000000       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_UARTGetChar
+                0x00000000       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_UARTPutSTR
+                0x00000000       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_Debug_Init
+                0x00000000       0x5c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_LED_Set
+                0x00000000       0x34 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_LED_Test
+                0x00000000       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_LED_Toggle
+                0x00000000       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x9a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00000000       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x832 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x9a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_SetPLLBypass
+                0x00000000       0x48 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_SetWDTClockSource
+                0x00000000       0x3c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_SetCLKOUTSource
+                0x00000000       0x3c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPortDIROutput
+                0x00000000       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPortDIRInput
+                0x00000000       0x44 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPinModeEdge
+                0x00000000       0x44 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPinModeLevel
+                0x00000000       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetEdgeModeBoth
+                0x00000000       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetEdgeModeSingle
+                0x00000000       0x44 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetModeHigh
+                0x00000000       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetModeLow
+                0x00000000       0x44 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000       0x14 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_WriteDirBit
+                0x00000000       0x78 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x00000000       0x58 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x58 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_SetupPinInt
+                0x00000000       0xc4 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .text.Chip_SYSCTL_SetDeepSleepPD
+                0x00000000       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .text.Chip_TIMER_ExtMatchControlSet
+                0x00000000       0x80 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000000       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_Clock_SetUARTClockDiv
+                0x00000000       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SendByte
+                0x00000000       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_ReadByte
+                0x00000000       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_IntEnable
+                0x00000000       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_IntDisable
+                0x00000000       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SetupFIFOS
+                0x00000000       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_ConfigData
+                0x00000000       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_EnableDivisorAccess
+                0x00000000       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_DisableDivisorAccess
+                0x00000000       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SetDivisorLatches
+                0x00000000       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_ReadLineStatus
+                0x00000000       0x14 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_Init
+                0x00000000       0x34 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_DeInit
+                0x00000000       0x14 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_Send
+                0x00000000       0x54 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SendBlocking
+                0x00000000       0x54 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_Read
+                0x00000000       0x54 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_ReadBlocking
+                0x00000000       0x54 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SetBaud
+                0x00000000       0x68 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_RXIntHandlerRB
+                0x00000000       0x44 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_TXIntHandlerRB
+                0x00000000       0x44 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SendRB
+                0x00000000       0x70 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_ReadRB
+                0x00000000       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_IRQRBHandler
+                0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .text.Chip_UART_SetBaudFDR
+                0x00000000       0xe4 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_info    0x00000000      0xe62 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_abbrev  0x00000000      0x201 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_aranges
+                0x00000000       0xf0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_ranges  0x00000000       0xe0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x148 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x1f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x3a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x241 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x117 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0xb2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x137 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x16 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x31a D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x2e D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0xb8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x11 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000       0x7c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x21c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_macro   0x00000000      0x113 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_line    0x00000000      0x539 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_str     0x00000000     0x84b6 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .debug_frame   0x00000000      0x370 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .ARM.attributes
+                0x00000000       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(uart_11xx.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .data          0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .bss           0x00000000        0x0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_GetCount
+                0x00000000       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_GetFree
+                0x00000000       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_IsFull
+                0x00000000       0x2c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_Init
+                0x00000000       0x38 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_Insert
+                0x00000000       0x60 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_InsertMult
+                0x00000000      0x128 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_Pop
+                0x00000000       0x60 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text.RingBuffer_PopMult
+                0x00000000      0x128 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_info    0x00000000      0x344 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_abbrev  0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_aranges
+                0x00000000       0x60 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_ranges  0x00000000       0x50 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x83 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x12d D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x5b2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x22 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x74 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_line    0x00000000      0x25c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_str     0x00000000     0x3ed3 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .debug_frame   0x00000000      0x130 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .ARM.attributes
+                0x00000000       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(ring_buffer.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x8 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x31 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x2c c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc4          0x10000000         0x00001000         xrw
+RamUsb2          0x20004000         0x00000800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/aeabi_romdiv_patch.o
+LOAD ./src/cr_startup_lpc11uxx.o
+LOAD ./src/crp.o
+LOAD ./src/main.o
+LOAD ./src/sysinit.o
+LOAD D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a
+LOAD D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10001000                __top_RamLoc4 = 0x10001000
+                0x20004800                __top_RamUsb2 = 0x20004800
+
+.text           0x00000000     0x1cf0
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./src/cr_startup_lpc11uxx.o
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x1cf0 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000cc        0x4 LONG 0x1cf0 LOADADDR (.data_RAM2)
+                0x000000d0        0x4 LONG 0x20004000 ADDR (.data_RAM2)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000d8                __data_section_table_end = .
+                0x000000d8                __bss_section_table = .
+                0x000000d8        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000dc        0x4 LONG 0x820 SIZEOF (.bss)
+                0x000000e0        0x4 LONG 0x20004000 ADDR (.bss_RAM2)
+                0x000000e4        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000e8                __bss_section_table_end = .
+                0x000000e8                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000e8      0x13c ./src/cr_startup_lpc11uxx.o
+                0x000000e8                data_init
+                0x00000128                bss_init
+                0x0000015c                ResetISR
+                0x000001f4                NMI_Handler
+                0x000001fc                HardFault_Handler
+                0x00000204                SVC_Handler
+                0x0000020c                PendSV_Handler
+                0x0000021c                FLEX_INT1_IRQHandler
+                0x0000021c                IntDefaultHandler
+                0x0000021c                SSP0_IRQHandler
+                0x0000021c                USBWakeup_IRQHandler
+                0x0000021c                UART_IRQHandler
+                0x0000021c                TIMER32_0_IRQHandler
+                0x0000021c                FLEX_INT7_IRQHandler
+                0x0000021c                FLEX_INT2_IRQHandler
+                0x0000021c                TIMER16_1_IRQHandler
+                0x0000021c                USB_FIQHandler
+                0x0000021c                FLEX_INT5_IRQHandler
+                0x0000021c                ADC_IRQHandler
+                0x0000021c                SSP1_IRQHandler
+                0x0000021c                FLEX_INT3_IRQHandler
+                0x0000021c                USB_IRQHandler
+                0x0000021c                BOD_IRQHandler
+                0x0000021c                I2C_IRQHandler
+                0x0000021c                WDT_IRQHandler
+                0x0000021c                FLEX_INT0_IRQHandler
+                0x0000021c                GINT0_IRQHandler
+                0x0000021c                FLEX_INT4_IRQHandler
+                0x0000021c                TIMER16_0_IRQHandler
+                0x0000021c                FLEX_INT6_IRQHandler
+                0x0000021c                FMC_IRQHandler
+                0x0000021c                GINT1_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000224       0xd8 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.NVIC_EnableIRQ
+                0x00000300       0x2c ./src/main.o
+ .text.NVIC_ClearPendingIRQ
+                0x0000032c       0x30 ./src/main.o
+ .text.NVIC_SetPriority
+                0x0000035c       0xd4 ./src/main.o
+ .text.SysTick_Config
+                0x00000430       0x4c ./src/main.o
+ .text.Chip_IOCON_PinMuxSet
+                0x0000047c       0x28 ./src/main.o
+ .text.Chip_TIMER_ClearCapture
+                0x000004a4       0x28 ./src/main.o
+ .text.Chip_TIMER_Enable
+                0x000004cc       0x1c ./src/main.o
+ .text.Chip_TIMER_Disable
+                0x000004e8       0x1c ./src/main.o
+ .text.Chip_TIMER_PrescaleSet
+                0x00000504       0x18 ./src/main.o
+ .text.Chip_TIMER_SetMatch
+                0x0000051c       0x2c ./src/main.o
+ .text.Chip_TIMER_ReadCapture
+                0x00000548       0x28 ./src/main.o
+ .text.Chip_TIMER_ResetOnMatchEnable
+                0x00000570       0x34 ./src/main.o
+ .text.Chip_TIMER_CaptureRisingEdgeEnable
+                0x000005a4       0x34 ./src/main.o
+ .text.Chip_TIMER_CaptureFallingEdgeEnable
+                0x000005d8       0x34 ./src/main.o
+ .text.Chip_TIMER_CaptureEnableInt
+                0x0000060c       0x34 ./src/main.o
+ .text.Chip_TIMER_TIMER_SetCountClockSrc
+                0x00000640       0x30 ./src/main.o
+ .text.handleFade3
+                0x00000670       0xfc ./src/main.o
+                0x00000670                handleFade3
+ .text.SysTick_Handler
+                0x0000076c       0x28 ./src/main.o
+                0x0000076c                SysTick_Handler
+ .text.updateChannel
+                0x00000794       0xe0 ./src/main.o
+                0x00000794                updateChannel
+ .text.handleCommand
+                0x00000874      0x368 ./src/main.o
+                0x00000874                handleCommand
+ .text.TIMER32_1_IRQHandler
+                0x00000bdc      0x158 ./src/main.o
+                0x00000bdc                TIMER32_1_IRQHandler
+ .text.main     0x00000d34      0x238 ./src/main.o
+                0x00000d34                main
+ .text.SystemInit
+                0x00000f6c        0xc ./src/sysinit.o
+                0x00000f6c                SystemInit
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000f78       0x4c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_LED_Init
+                0x00000fc4       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .text.Board_Init
+                0x00000fdc       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+                0x00000fdc                Board_Init
+ .text.Chip_FMC_SetFLASHAccess
+                0x00000ff4       0x2c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_SetupSystemPLL
+                0x00001020       0x34 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_IsSystemPLLLocked
+                0x00001054       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_SetSysClockDiv
+                0x00001070       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x00001088       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.Chip_IOCON_PinMuxSet
+                0x000010b8       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.SystemSetupClocking
+                0x000010e0       0x64 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.SystemSetupMuxing
+                0x00001144       0x48 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .text.Board_SystemInit
+                0x0000118c       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+                0x0000118c                Board_SystemInit
+ .text.SystemCoreClockUpdate
+                0x0000119c       0x18 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+                0x0000119c                SystemCoreClockUpdate
+ .text.Chip_Clock_GetMainOscRate
+                0x000011b4       0x14 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x000011c8       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_GetWDTLFORate
+                0x000011d8       0x48 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_GetPLLFreq
+                0x00001220       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .text.Chip_Clock_SetSystemPLLSource
+                0x00001244       0x2c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x00001244                Chip_Clock_SetSystemPLLSource
+ .text.Chip_Clock_SetMainClockSource
+                0x00001270       0x2c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x00001270                Chip_Clock_SetMainClockSource
+ .text.Chip_Clock_GetWDTOSCRate
+                0x0000129c       0x1c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x0000129c                Chip_Clock_GetWDTOSCRate
+ .text.Chip_Clock_GetSystemPLLInClockRate
+                0x000012b8       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x000012b8                Chip_Clock_GetSystemPLLInClockRate
+ .text.Chip_Clock_GetSystemPLLOutClockRate
+                0x000012f8       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x000012f8                Chip_Clock_GetSystemPLLOutClockRate
+ .text.Chip_Clock_GetMainClockRate
+                0x0000131c       0x64 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x0000131c                Chip_Clock_GetMainClockRate
+ .text.Chip_Clock_GetSystemClockRate
+                0x00001380       0x24 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x00001380                Chip_Clock_GetSystemClockRate
+ .text.Chip_Clock_EnablePeriphClock
+                0x000013a4       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .text.Chip_GPIO_Init
+                0x000013d4       0x14 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+                0x000013d4                Chip_GPIO_Init
+ .text.Chip_GPIO_SetDir
+                0x000013e8       0x84 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+                0x000013e8                Chip_GPIO_SetDir
+ .text.Chip_SYSCTL_SetWakeup
+                0x0000146c       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+                0x0000146c                Chip_SYSCTL_SetWakeup
+ .text.Chip_SYSCTL_PowerDown
+                0x00001494       0x3c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+                0x00001494                Chip_SYSCTL_PowerDown
+ .text.Chip_SYSCTL_PowerUp
+                0x000014d0       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+                0x000014d0                Chip_SYSCTL_PowerUp
+ .text.Chip_Clock_EnablePeriphClock
+                0x00001510       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00001540       0x30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .text.Chip_TIMER_GetClock
+                0x00001570       0x60 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .text.Chip_TIMER_Init
+                0x000015d0       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+                0x000015d0                Chip_TIMER_Init
+ .text.Chip_TIMER_DeInit
+                0x000015f0       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+                0x000015f0                Chip_TIMER_DeInit
+ .text.Chip_TIMER_Reset
+                0x00001610       0x38 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+                0x00001610                Chip_TIMER_Reset
+ .text.memset   0x00001648        0x8 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                0x00001648                memset
+ .text.__weak_main
+                0x00001650        0x8 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x00001650                __weak_main
+                0x00001650                __main
+ .text.__aeabi_division_idivmod
+                0x00001658       0x78 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o)
+                0x00001658                __aeabi_idivmod
+                0x00001658                __aeabi_idiv
+                0x0000165e                __aeabi_uidivmod
+                0x0000165e                __aeabi_uidiv
+ .text.__aeabi_division_idiv0
+                0x000016d0        0x2 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                0x000016d0                __aeabi_idiv0
+ .text.__aeabi_memset_lowlevel
+                0x000016d2       0x2a c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                0x000016d2                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.pwm_lut
+                0x000016fc      0x18c ./src/main.o
+ .rodata.handleFade3
+                0x00001888       0x18 ./src/main.o
+ .rodata.handleCommand
+                0x000018a0      0x3e4 ./src/main.o
+ .rodata.OscRateIn
+                0x00001c84        0x4 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+                0x00001c84                OscRateIn
+ .rodata.pinmuxing
+                0x00001c88       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .rodata.wdtOSCRate
+                0x00001cb0       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                0x00001cf0                . = ALIGN (0x4)
+
+.glue_7         0x00001cf0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00001cf0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00001cf0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00001cf0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00001cf0        0x0
+ .iplt          0x00000000        0x0 ./src/cr_startup_lpc11uxx.o
+
+.rel.dyn        0x00001cf0        0x0
+ .rel.iplt      0x00000000        0x0 ./src/cr_startup_lpc11uxx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001cf0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001cf0                __exidx_end = .
+                0x00001cf0                _etext = .
+
+.data_RAM2      0x20004000        0x0 load address 0x00001cf0
+ FILL mask 0xff
+                0x20004000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamUsb2)
+ *(.data.$RAM2*)
+ *(.data.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+                0x20004000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x00001cf0
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x00001cf0
+ .igot.plt      0x00000000        0x0 ./src/cr_startup_lpc11uxx.o
+
+.bss_RAM2       0x20004000        0x0
+                0x20004000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+                0x20004000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000000      0x820
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.currCMD   0x10000000        0x4 ./src/main.o
+                0x10000000                currCMD
+ .bss.red       0x10000004        0x2 ./src/main.o
+                0x10000004                red
+ .bss.green     0x10000006        0x2 ./src/main.o
+                0x10000006                green
+ .bss.blue      0x10000008        0x2 ./src/main.o
+                0x10000008                blue
+ *fill*         0x1000000a        0x2 
+ .bss.counterArr
+                0x1000000c      0x800 ./src/main.o
+                0x1000000c                counterArr
+ .bss.counterPtr
+                0x1000080c        0x2 ./src/main.o
+                0x1000080c                counterPtr
+ .bss.run.5914  0x1000080e        0x1 ./src/main.o
+ .bss.r.5911    0x1000080f        0x1 ./src/main.o
+ .bss.g.5912    0x10000810        0x1 ./src/main.o
+ .bss.b.5913    0x10000811        0x1 ./src/main.o
+ .bss.toggle.5994
+                0x10000812        0x1 ./src/main.o
+ .bss.idx.5993  0x10000813        0x1 ./src/main.o
+ *(COMMON)
+ COMMON         0x10000814        0x6 ./src/main.o
+                0x10000814                timerFreq
+                0x10000818                fader
+                0x10000819                special
+ *fill*         0x1000081a        0x2 
+ COMMON         0x1000081c        0x4 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+                0x1000081c                SystemCoreClock
+                0x10000820                . = ALIGN (0x4)
+                0x10000820                _ebss = .
+                0x10000820                PROVIDE (end, .)
+
+.noinit_RAM2    0x20004000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+
+.noinit         0x10000820        0x0
+                0x10000820                _noinit = .
+ *(.noinit*)
+                0x10000820                . = ALIGN (0x4)
+                0x10000820                _end_noinit = .
+                0x10000820                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10001000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc4 - 0x0))
+OUTPUT(ledstripe_controller_2016.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4484
+ .debug_info    0x00000000      0x217 ./src/cr_startup_lpc11uxx.o
+ .debug_info    0x00000217       0x3f ./src/crp.o
+ .debug_info    0x00000256      0xd9c ./src/main.o
+ .debug_info    0x00000ff2       0xb8 ./src/sysinit.o
+ .debug_info    0x000010aa      0x810 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_info    0x000018ba      0xa0d D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_info    0x000022c7       0xc2 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_info    0x00002389      0x86f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_info    0x00002bf8      0xb30 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_info    0x00003728      0x583 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_info    0x00003cab      0x7d9 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+
+.debug_abbrev   0x00000000      0xef4
+ .debug_abbrev  0x00000000       0xed ./src/cr_startup_lpc11uxx.o
+ .debug_abbrev  0x000000ed       0x36 ./src/crp.o
+ .debug_abbrev  0x00000123      0x2ff ./src/main.o
+ .debug_abbrev  0x00000422       0x6a ./src/sysinit.o
+ .debug_abbrev  0x0000048c      0x24a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_abbrev  0x000006d6      0x1e3 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_abbrev  0x000008b9       0x7b D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_abbrev  0x00000934      0x1bc D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_abbrev  0x00000af0      0x1a5 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_abbrev  0x00000c95       0xce D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_abbrev  0x00000d63      0x191 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+
+.debug_aranges  0x00000000      0x458
+ .debug_aranges
+                0x00000000       0x60 ./src/cr_startup_lpc11uxx.o
+ .debug_aranges
+                0x00000060       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000078       0xd0 ./src/main.o
+ .debug_aranges
+                0x00000148       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x00000168       0xb0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_aranges
+                0x00000218       0x60 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_aranges
+                0x00000278       0x20 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_aranges
+                0x00000298       0x88 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_aranges
+                0x00000320       0xb0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_aranges
+                0x000003d0       0x38 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_aranges
+                0x00000408       0x50 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+
+.debug_ranges   0x00000000      0x3a0
+ .debug_ranges  0x00000000       0x50 ./src/cr_startup_lpc11uxx.o
+ .debug_ranges  0x00000050       0xc0 ./src/main.o
+ .debug_ranges  0x00000110       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000120       0xa0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_ranges  0x000001c0       0x50 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_ranges  0x00000210       0x10 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_ranges  0x00000220       0x78 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_ranges  0x00000298       0xa0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_ranges  0x00000338       0x28 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_ranges  0x00000360       0x40 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+
+.debug_macro    0x00000000     0x3e46
+ .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc11uxx.o
+ .debug_macro   0x0000001d      0x83e ./src/cr_startup_lpc11uxx.o
+ .debug_macro   0x0000085b       0x1a ./src/crp.o
+ .debug_macro   0x00000875       0x34 ./src/crp.o
+ .debug_macro   0x000008a9      0x1ad ./src/main.o
+ .debug_macro   0x00000a56       0x10 ./src/main.o
+ .debug_macro   0x00000a66      0x12d ./src/main.o
+ .debug_macro   0x00000b93      0x5b2 ./src/main.o
+ .debug_macro   0x00001145       0x22 ./src/main.o
+ .debug_macro   0x00001167       0x7b ./src/main.o
+ .debug_macro   0x000011e2       0x10 ./src/main.o
+ .debug_macro   0x000011f2       0x1f ./src/main.o
+ .debug_macro   0x00001211       0x3a ./src/main.o
+ .debug_macro   0x0000124b      0x241 ./src/main.o
+ .debug_macro   0x0000148c      0x117 ./src/main.o
+ .debug_macro   0x000015a3       0x22 ./src/main.o
+ .debug_macro   0x000015c5       0xb2 ./src/main.o
+ .debug_macro   0x00001677       0x10 ./src/main.o
+ .debug_macro   0x00001687      0x137 ./src/main.o
+ .debug_macro   0x000017be       0x4c ./src/main.o
+ .debug_macro   0x0000180a       0x16 ./src/main.o
+ .debug_macro   0x00001820      0x31a ./src/main.o
+ .debug_macro   0x00001b3a       0x2e ./src/main.o
+ .debug_macro   0x00001b68       0xb8 ./src/main.o
+ .debug_macro   0x00001c20       0x11 ./src/main.o
+ .debug_macro   0x00001c31       0x7c ./src/main.o
+ .debug_macro   0x00001cad      0x21c ./src/main.o
+ .debug_macro   0x00001ec9      0x113 ./src/main.o
+ .debug_macro   0x00001fdc       0x10 ./src/main.o
+ .debug_macro   0x00001fec       0x9a ./src/main.o
+ .debug_macro   0x00002086       0x20 ./src/main.o
+ .debug_macro   0x000020a6       0x82 ./src/main.o
+ .debug_macro   0x00002128      0x17e ./src/main.o
+ .debug_macro   0x000022a6      0x17d ./src/sysinit.o
+ .debug_macro   0x00002423      0x18a D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x000025ad      0x832 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00002ddf       0x12 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_macro   0x00002df1      0x18b D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_macro   0x00002f7c      0x148 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x000030c4      0x838 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_macro   0x000038fc      0x148 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_macro   0x00003a44      0x148 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_macro   0x00003b8c      0x172 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_macro   0x00003cfe      0x148 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+
+.debug_line     0x00000000     0x25d3
+ .debug_line    0x00000000       0xbf ./src/cr_startup_lpc11uxx.o
+ .debug_line    0x000000bf       0x78 ./src/crp.o
+ .debug_line    0x00000137      0x6e5 ./src/main.o
+ .debug_line    0x0000081c      0x349 ./src/sysinit.o
+ .debug_line    0x00000b65      0x4d1 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_line    0x00001036      0x434 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_line    0x0000146a      0x2c9 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_line    0x00001733      0x3f4 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_line    0x00001b27      0x44f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_line    0x00001f76      0x306 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_line    0x0000227c      0x357 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+
+.debug_str      0x00000000     0xa748
+ .debug_str     0x00000000     0x250a ./src/cr_startup_lpc11uxx.o
+                               0x251d (size before relaxing)
+ .debug_str     0x0000250a       0xe9 ./src/crp.o
+                               0x2469 (size before relaxing)
+ .debug_str     0x000025f3     0x6e5c ./src/main.o
+                               0x9313 (size before relaxing)
+ .debug_str     0x0000944f       0x11 ./src/sysinit.o
+                               0x7ffd (size before relaxing)
+ .debug_str     0x00009460      0x26c D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+                               0x849b (size before relaxing)
+ .debug_str     0x000096cc      0x6ab D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+                               0x8934 (size before relaxing)
+ .debug_str     0x00009d77       0x87 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+                               0x7d3e (size before relaxing)
+ .debug_str     0x00009dfe      0x447 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+                               0x8502 (size before relaxing)
+ .debug_str     0x0000a245      0x242 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+                               0x83e0 (size before relaxing)
+ .debug_str     0x0000a487      0x19f D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+                               0x814c (size before relaxing)
+ .debug_str     0x0000a626      0x122 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+                               0x82d3 (size before relaxing)
+
+.comment        0x00000000       0xe0
+ .comment       0x00000000       0x70 ./src/cr_startup_lpc11uxx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 ./src/sysinit.o
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .comment       0x00000000       0x71 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .comment       0x00000070       0x70 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x31 ./src/cr_startup_lpc11uxx.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/crp.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/main.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/sysinit.o
+ .ARM.attributes
+                0x000000c4       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .ARM.attributes
+                0x000000f5       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .ARM.attributes
+                0x00000126       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .ARM.attributes
+                0x00000157       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .ARM.attributes
+                0x00000188       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .ARM.attributes
+                0x000001b9       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .ARM.attributes
+                0x000001ea       0x31 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
+ .ARM.attributes
+                0x0000021b       0x31 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x0000024c       0x31 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x0000027d       0x21 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x0000029e       0x21 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x000002bf       0x21 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xd8c
+ .debug_frame   0x00000000      0x118 ./src/cr_startup_lpc11uxx.o
+ .debug_frame   0x00000118      0x2e4 ./src/main.o
+ .debug_frame   0x000003fc       0x2c ./src/sysinit.o
+ .debug_frame   0x00000428      0x260 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board.o)
+ .debug_frame   0x00000688      0x128 D:\DB\Dropbox\Development\led_stripe_controller\workspace\nxp_lpcxpresso_11c24_board_lib\Debug\libnxp_lpcxpresso_11c24_board_lib.a(board_sysinit.o)
+ .debug_frame   0x000007b0       0x2c D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(chip_11xx.o)
+ .debug_frame   0x000007dc      0x1c0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(clock_11xx.o)
+ .debug_frame   0x0000099c      0x270 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(gpio_11xx_2.o)
+ .debug_frame   0x00000c0c       0x90 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(sysctl_11xx.o)
+ .debug_frame   0x00000c9c       0xf0 D:\DB\Dropbox\Development\led_stripe_controller\workspace\lpc_chip_11cxx_lib\Debug\liblpc_chip_11cxx_lib.a(timer_11xx.o)
